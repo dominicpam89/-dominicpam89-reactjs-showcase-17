@@ -1,38 +1,40 @@
-# Welcome to Remix!
+# Material UI - Remix example in TypeScript
 
-- [Remix Docs](https://remix.run/docs)
+## How to use
 
-## Development
+Download the example [or clone the repo](https://github.com/mui/material-ui):
 
-From your terminal:
+<!-- #default-branch-switch -->
 
-```sh
+```bash
+curl https://codeload.github.com/mui/material-ui/tar.gz/master | tar -xz --strip=2  material-ui-master/examples/material-ui-remix-ts
+cd material-ui-remix-ts
+```
+
+Install it and run:
+
+```bash
+npm install
 npm run dev
 ```
 
-This starts your app in development mode, rebuilding assets on file changes.
+or:
 
-## Deployment
+<!-- #default-branch-switch -->
 
-First, build your app for production:
+[![Edit on StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/mui/material-ui/tree/master/examples/material-ui-remix-ts)
 
-```sh
-npm run build
-```
+[![Edit on CodeSandbox](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/github/mui/material-ui/tree/master/examples/material-ui-remix-ts)
 
-Then run the app in production mode:
+## The idea behind the example
 
-```sh
-npm start
-```
+The project uses [Remix](https://remix.run/), which is a full stack web framework.
+It includes `@mui/material` and its peer dependencies, including [Emotion](https://emotion.sh/docs/introduction), the default style engine in Material UI v5.
+If you prefer, you can [use styled-components instead](https://mui.com/material-ui/guides/interoperability/#styled-components).
 
-Now you'll need to pick a host to deploy it to.
+## What's next?
 
-### DIY
+<!-- #default-branch-switch -->
 
-If you're familiar with deploying node applications, the built-in Remix app server is production-ready.
-
-Make sure to deploy the output of `remix build`
-
-- `build/`
-- `public/build/`
+You now have a working example project.
+You can head back to the documentation and continue by browsing the [templates](https://mui.com/material-ui/getting-started/templates/) section.
